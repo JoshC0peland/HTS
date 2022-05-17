@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Kanit&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Merriweather&display=swap');
+
+
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing:  border-box;
+	background-color: #8D99AE;
+}
+
+header{
+	background-image: url(headerimage.webp);
+	background-attachment: fixed;
+	background-position: 50% 90%;
+	position: relative;
+	height: 60vh;
+}
+
+img {
+    max-width: 21%;
+    height: auto;
+    width: auto\9; /* ie8 */
+}
+
+.hero {
+	
+}
+
+.container {
+  display: flex; /* or inline-flex */
+}
+
+.header-container {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.caption {
+    position: absolute;
+    top: 0%;
+    left: 0;
+    width: 100%;
+}
+
+.caption-2 {
+	position: absolute;
+    bottom: 0%;
+    left: 0;
+    width: 100%;
+    transform: rotate(180deg);
+}
+
+.caption p, .caption-2 p {
+	font-family: kanit;
+	font-size: 40px;
+	color: #EDF2F4;
+}
+
+.content-base{
+	background-color:#072F5F ;
+	margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right:17% ;
+  margin-left:17% ;
+}
+
+.maroon-box{
+	font-family: kanit;
+	font-size: 30px;
+	color: #EDF2F4;
+	text-align: center;
+	background-color:#31081F;
+	max-width: 21%;
+	border-width: 2px;
+	border-color:#31081F;
+}
+
+.album-container{
+	display: flex;
+	flex-direction: column;
+}
